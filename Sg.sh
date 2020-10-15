@@ -133,7 +133,7 @@ if [ "$download" -eq "1"  ]; then
  g0sain
  Cl0ning
 
-elif [ "$install" -eq "1"  ]; then
+elif [ "$install" -eq "2"  ]; then
  cd
  clear
  termux-setup-storage
