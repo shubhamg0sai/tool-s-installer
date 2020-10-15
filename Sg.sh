@@ -131,6 +131,8 @@ if [ "$install" -eq "1"  ]; then
 echo "         {Ctrl C} exit "
 
  sleep 2 
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
  bash Sg.sh
 
 elif [ "$install" -eq "2"  ]; then
