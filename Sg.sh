@@ -64,7 +64,7 @@ echo ""
 echo -e "$p"
 read -p  "number-------> " install
 
-if [ "$download" -eq "1"  ]; then
+if [ "$install" -eq "1"  ]; then
  cd
  clear
  termux-setup-storage
