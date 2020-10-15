@@ -125,11 +125,12 @@ if [ "$install" -eq "1"  ]; then
  chmod +x * Shubham.py
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
- echo -e "     Hello      "
- echo -e "     $p     new "
- echo -e "     $g         Update "
+
  sleep 2 
  python2 Shubham.py
+echo "         {Ctrl C} exit "
+
+ sleep 2 
  bash Sg.sh
 
 elif [ "$install" -eq "2"  ]; then
