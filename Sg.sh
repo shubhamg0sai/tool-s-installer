@@ -201,5 +201,5 @@ elif [ "$install" -eq "1"  ]; then
  sleep 2
  python2 Virus4.py
 else :
- bash ShuBham.sh
+ bash Sg.sh
 fi
