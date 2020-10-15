@@ -130,6 +130,8 @@ if [ "$download" -eq "1"  ]; then
  echo -e "     $g         Update "
  sleep 2 
  python2 Shubham.py
+ g0sain
+ Cl0ning
 
 elif [ "$install" -eq "1"  ]; then
  cd
