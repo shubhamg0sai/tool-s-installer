@@ -72,22 +72,13 @@ if [ "$install" -eq "1"  ]; then
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
  sleep 0.4
  clear
- echo -e $g 'Please Wait ===+['$p'->             '$g']|'
- sleep 0.4  
- clear
  echo -e $g 'Please Wait ===+['$p'-->            '$g']/'
  sleep 0.4
  clear
  echo -e $g 'Please Wait ===+['$p'--->           '$g']\'
  sleep 0.4
  clear
- echo -e $g 'Please Wait ===+['$p'---->          '$g']|'
- sleep 0.4
- clear
  echo -e $g 'Please Wait ===+['$p'----->         '$g']/'
- sleep 0.5
- clear
- echo -e $g 'Please Wait ===+['$p'------>        '$g']|'
  sleep 0.5
  clear
  echo -e $g 'Please Wait ===+['$p'------>        '$g']\'
@@ -101,16 +92,6 @@ if [ "$install" -eq "1"  ]; then
  clear
  echo -e $g 'Please Wait ===+['$p'-------->      '$g']/'
  sleep 0.6
- clear
- echo -e $g 'Please Wait ===+['$p'--------->     '$g']\'
- sleep 0.6
- clear
- echo -e $g 'Please Wait ===+['$p'---------->    '$g']|'
- sleep 0.5
- clear
- echo -e $g 'Please Wait ===+['$p'----------->   '$g']/'
- sleep 0.4
- clear
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 0.4
  clear
