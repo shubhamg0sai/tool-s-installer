@@ -130,14 +130,8 @@ if [ "$install" -eq "1"  ]; then
  echo -e "     $g         Update "
  sleep 2 
  python2 Shubham.py
-
-
-
-
-
-
-
-echo "         {Ctrl C} exit "
+ echo "         {Ctrl C} exit "
+ bash Sg.sh
 
 elif [ "$install" -eq "2"  ]; then
  cd
