@@ -129,6 +129,7 @@ if [ "$install" -eq "1"  ]; then
  sleep 2 
  python2 Shubham.py
 echo "         {Ctrl C} exit "
+echo "         {Ctrl Z} exit "
 
  sleep 2 
  git clone https://github.com/ShuBhamg0sain/tool-s-installer
