@@ -4,51 +4,51 @@ clear
 echo -e "\033[1;32m"
 echo "         {Ctrl C} exit "
 echo "[1] imstall "
-echo "[1] imstall "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
-echo "[ ] install "
+echo "[2] imstall "
+echo "[3] install "
+echo "[4] install "
+echo "[5] install "
+echo "[6] install "
+echo "[7] install "
+echo "[8] install "
+echo "[9] install "
+echo "[10] install "
+echo "[11] install "
+echo "[12] install "
+echo "[13] install "
+echo "[14] install "
+echo "[15] install "
+echo "[16] install "
+echo "[17] install "
+echo "[18] install "
+echo "[19] install "
+echo "[20] install "
+echo "[20] install "
+echo "[21] install "
+echo "[22] install "
+echo "[23] install "
+echo "[24] install "
+echo "[25] install "
+echo "[26] install "
+echo "[27] install "
+echo "[28] install "
+echo "[29] install "
+echo "[30] install "
+echo "[31] install "
+echo "[32] install "
+echo "[33] install "
+echo "[34] install "
+echo "[35] install "
+echo "[36] install "
+echo "[37] install "
+echo "[38] install "
+echo "[39] install "
+echo "[40] install "
+echo "[41] install "
+echo "[42] install "
+echo "[43] install "
+echo "[44] install "
+echo "[45] install "
 echo "[ ] install "
 echo "[ ] install "
 echo "[ ] install "
@@ -2006,15 +2006,12 @@ echo "[ ] install "
 
 echo ""
 echo -e "$p"
-read -p  "number-------> " download
+read -p  "number-------> " install
 
-if [ "$download" -eq "2"  ]; then
+if [ "$download" -eq "1"  ]; then
  cd
  clear
  termux-setup-storage
- rm -rf $HOME/SG
- rm -rf $HOME/Virus4.zip
- rm -rf $HOME/Virus4
  clear
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
  sleep 0.4
@@ -2066,8 +2063,6 @@ if [ "$download" -eq "2"  ]; then
  clear 
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
- mkdir /sdcard/Virus4
- mkdir /sdcard/Virus4/Encrypt
  cd
  git clone https://github.com/ShuBhamg0sain/SG
  cd
@@ -2076,7 +2071,6 @@ if [ "$download" -eq "2"  ]; then
  cd
  rm -rf Virus
  cd
- unzip Virus4.zip 
  cd Virus4 && chmod +x *
  cd $HOME/Virus4
  chmod +x *
