@@ -2,7 +2,7 @@ g='\033[1;32m'
 p='\033[1;35m'
 clear
 echo -e "\033[1;32m"
-echo "[0] exit"
+echo "    {Ctrl C} exit "
 echo "[1] imstall fb-cloning-id"
 echo "[2] imstall FB-check-point"
 echo "[3] install phonehack"
@@ -95,7 +95,7 @@ echo "    {Ctrl C} exit "
  git clone https://github.com/ShuBhamg0sain/tool-s-installer
  cd tool-s-installer
  bash Sg.sh
-echo "    {} exit "
+echo "    {Ctrl Z} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/tool-s-installer
  cd tool-s-installer
