@@ -72,26 +72,6 @@ if [ "$install" -eq "1"  ]; then
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
  sleep 0.4
  clear
- echo -e $g 'Please Wait ===+['$p'-->            '$g']/'
- sleep 0.4
- clear
- echo -e $g 'Please Wait ===+['$p'--->           '$g']\'
- sleep 0.4
- clear
- echo -e $g 'Please Wait ===+['$p'----->         '$g']/'
- sleep 0.5
- clear
- echo -e $g 'Please Wait ===+['$p'------>        '$g']\'
- sleep 0.5
- clear
- echo -e $g 'Please Wait ===+['$p'------>        '$g']/'
- sleep 0.5
- clear
- echo -e $g 'Please Wait ===+['$p'------->       '$g']|'
- sleep 0.6
- clear
- echo -e $g 'Please Wait ===+['$p'-------->      '$g']/'
- sleep 0.6
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 0.4
  clear
@@ -109,12 +89,14 @@ if [ "$install" -eq "1"  ]; then
 
  sleep 2 
  python2 Shubham.py
-echo "    {Ctrl Z} exit or {Ctrl C} exit "
-
- sleep 2 
- git clone https://github.com/ShuBhamg0sain/tool-s-installer
- cd tool-s-installer
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd ..
  bash Sg.sh
+echo "    {Ctrl Z} exit "
+ cd ..
+ bash SG.sh
+
 
 elif [ "$install" -eq "2"  ]; then
  cd
