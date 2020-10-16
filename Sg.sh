@@ -95,7 +95,7 @@ echo "    {Ctrl C} exit "
  bash Sg.sh
 echo "    {Ctrl Z} exit "
  cd ..
- bash SG.sh
+ bash Sg.sh
 
 
 elif [ "$install" -eq "2"  ]; then
