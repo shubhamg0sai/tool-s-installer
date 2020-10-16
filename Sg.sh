@@ -2,7 +2,7 @@ g='\033[1;32m'
 p='\033[1;35m'
 clear
 echo -e "\033[1;32m"
-echo "         {Ctrl C} exit "
+echo "[0] exit"
 echo "[1] imstall fb-cloning-id"
 echo "[2] imstall FB-check-point"
 echo "[3] install phonehack"
@@ -54,7 +54,7 @@ echo "[ ] install "
 echo "[ ] install "
 echo "[ ] install "
 echo "[ ] install "
-echo "[ ] install "
+
 echo "[ ] install "
 echo "[ ] install "
 echo "[ ] install "
@@ -102,7 +102,7 @@ echo "    {} exit "
  bash Sg.sh
 
 
-elif [ "$install" -eq "2"  ]; then
+elif [ "$exit" -eq "0"  ]; then
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 0.4
  clear
