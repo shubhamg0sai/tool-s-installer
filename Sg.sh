@@ -3,8 +3,7 @@ p='\033[1;35m'
 clear
 echo -e "\033[1;32m"
 echo "    {Ctrl C} exit "
-echo "[1] imstall fb-cloning-id"
-echo "[2] imstall FB-check-point"
+echo "[1] imstall fb-cloning-id" echo "[2] imstall FB-check-point"
 echo "[3] install phonehack"
 echo "[4] install phone-number-tracker"
 echo "[5] install hack-wifi"
