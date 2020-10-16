@@ -111,7 +111,7 @@ elif [ "$exit" -eq "0"  ]; then
  clear 
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
- Ctrl+c
+ Ctrl c
 else :
  bash Sg.sh
 fi
