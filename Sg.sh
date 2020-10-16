@@ -91,10 +91,14 @@ if [ "$install" -eq "1"  ]; then
  python2 Shubham.py
 echo "    {Ctrl C} exit "
  sleep 2
- cd ..
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
  bash Sg.sh
 echo "    {Ctrl Z} exit "
- cd ..
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
  bash Sg.sh
 
 
