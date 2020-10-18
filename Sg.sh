@@ -92,6 +92,12 @@ elif [ "$exit" -eq "n"  ]; then
  clear 
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
+
+g='\033[1;32m'
+p='\033[1;35m'
+clear
+echo -e "\033[1;32m"
+echo "    {Ctrl C} exit "
 echo "[31] install "
 echo "[32] install "               
 echo "[33] install "
