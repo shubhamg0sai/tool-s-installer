@@ -33,7 +33,7 @@ echo "[27] install "
 echo "[28] install "        
 echo "[29] install "                
 echo "[30] install "
-echo "[n]  install go to next page "                                                    
+echo "[00]  install go to next page "                                                    
 
 echo ""
 echo -e "$p"
@@ -70,7 +70,7 @@ echo "    {Ctrl C} exit "
  cd tool-s-installer
  bash Sg.sh
 
-if [ "$next" -eq "n"  ]; then
+if [ "$next" -eq "00"  ]; then
  cd
  clear
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
