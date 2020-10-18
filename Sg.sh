@@ -33,12 +33,11 @@ echo "[27] install "
 echo "[28] install "        
 echo "[29] install "                
 echo "[30] install "
-echo "[n]  next "                                                    
+echo "[n]  install go to next page "                                                    
 
 echo ""
 echo -e "$p"
 read -p  "number-------> " install
-read -p  "number-------> " next
 
 if [ "$install" -eq "1"  ]; then
  cd
