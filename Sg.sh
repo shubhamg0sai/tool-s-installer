@@ -37,7 +37,8 @@ echo "[n]  next "
 
 echo ""
 echo -e "$p"
-read -p  "number-------> " install , next
+read -p  "number-------> " install
+read -p  "number-------> " next
 
 if [ "$install" -eq "1"  ]; then
  cd
