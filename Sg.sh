@@ -87,7 +87,8 @@ if [ "$next" -eq "n"  ]; then
  cd
  git clone https://github.com/ShuBhamg0sain/tool-s-installer
  cd tool-s-installer
- bash SG.sh
+ cd Shubham
+ bash Sg1.sh
  clear
  sleep 2
 
