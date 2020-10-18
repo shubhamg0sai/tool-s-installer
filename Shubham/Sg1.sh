@@ -82,6 +82,13 @@ elif [ "$exit" -eq "00"  ]; then
  sleep 0.4
 
 elif [ "$exit" -eq "0"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 0.4
  clear
@@ -90,7 +97,14 @@ elif [ "$exit" -eq "0"  ]; then
  clear 
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
- ls
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
  cd
  git clone https://github.com/ShuBhamg0sain/tool-s-installer
  cd tool-s-installer
