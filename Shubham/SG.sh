@@ -33,10 +33,11 @@ echo "[57] install "
 echo "[58] install "
 echo "[59] install "
 echo "[60] install "
-
+echo "[n]  next "
+echo "[b]  back "
 echo ""
 echo -e "$p"
-read -p  "number-------> " install , next
+read -p  "number-------> " install , next , back
 
 if [ "$install" -eq "31"  ]; then
  cd
@@ -67,9 +68,10 @@ echo "    {Ctrl C} exit "
  cd
  git clone https://github.com/ShuBhamg0sain/tool-s-installer
  cd tool-s-installer
- bash Sg.sh
+ cd ShuBham
+ bash Sg1.sh
 
-elif [ "$exit" -eq "32"  ]; then
+elif [ "$exit" -eq "n"  ]; then
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 0.4
  clear
@@ -78,6 +80,21 @@ elif [ "$exit" -eq "32"  ]; then
  clear 
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
+
+elif [ "$exit" -eq "b"  ]; then
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ ls
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
+ bash Sg.sh
 
 else :
  bash Sg.sh
