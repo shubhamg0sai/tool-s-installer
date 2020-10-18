@@ -33,11 +33,11 @@ echo "[57] install "
 echo "[58] install "
 echo "[59] install "
 echo "[60] install "
-echo "[n]  next "
-echo "[b]  back "
+echo "[n]  install next page "
+echo "[b]  install back page "
 echo ""
 echo -e "$p"
-read -p  "number-------> " install , next , back
+read -p  "number-------> " install
 
 if [ "$install" -eq "31"  ]; then
  cd
@@ -71,7 +71,7 @@ echo "    {Ctrl C} exit "
  cd ShuBham
  bash Sg1.sh
 
-elif [ "$exit" -eq "n"  ]; then
+elif [ "$exit" -eq "00"  ]; then
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 0.4
  clear
@@ -81,7 +81,7 @@ elif [ "$exit" -eq "n"  ]; then
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
 
-elif [ "$exit" -eq "b"  ]; then
+elif [ "$exit" -eq "0"  ]; then
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 0.4
  clear
