@@ -91,9 +91,6 @@ if [ "$next" -eq "n"  ]; then
  clear
  sleep 2
 
-
-
-
 else :
  bash Sg.sh
 fi
