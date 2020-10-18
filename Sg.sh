@@ -70,7 +70,12 @@ echo "    {Ctrl C} exit "
  cd tool-s-installer
  bash Sg.sh
 
-elif [ "$exit" -eq "0"  ]; then
+if [ "$next" -eq "n"  ]; then
+ cd
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 0.4
  clear
@@ -79,19 +84,15 @@ elif [ "$exit" -eq "0"  ]; then
  clear 
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
- Ctrl c
-else :
- bash Sg.sh
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
+ bash SG.sh
+ clear
+ sleep 2
 
-elif [ "$exit" -eq "n"  ]; then
- echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
- sleep 0.4
- clear
- echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
- sleep 0.4
- clear 
- echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
- sleep 0.4
+
+
 
 else :
  bash Sg.sh
