@@ -33,11 +33,11 @@ echo "[27] install "
 echo "[28] install "        
 echo "[29] install "                
 echo "[30] install "
-echo "[00]  install go to next page "                                                    
+echo "[00] next "                                                    
 
 echo ""
 echo -e "$p"
-read -p  "number-------> " install
+read -p  "number-------> " install , next
 
 if [ "$install" -eq "1"  ]; then
  cd
@@ -70,7 +70,141 @@ echo "    {Ctrl C} exit "
  cd tool-s-installer
  bash Sg.sh
 
-if [ "$next" -eq "00"  ]; then
+
+
+elif [ "$install" -eq "1"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/fb-cloning-id
+ cd fb-cloning-id
+ chmod +x * Shubham.py
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ python2 Shubham.py
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
+ bash Sg.sh
+
+
+
+elif [ "$install" -eq "1"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/fb-cloning-id
+ cd fb-cloning-id
+ chmod +x * Shubham.py
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ python2 Shubham.py
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
+ bash Sg.sh
+
+
+
+elif [ "$install" -eq "1"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/fb-cloning-id
+ cd fb-cloning-id
+ chmod +x * Shubham.py
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ python2 Shubham.py
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
+ bash Sg.sh
+
+
+
+elif [ "$install" -eq "1"  ]; then
+ cd
+ clear
+ termux-setup-storage
+ clear
+ echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ sleep 0.4
+ clear 
+ echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ sleep 0.4
+ cd
+ git clone https://github.com/ShuBhamg0sain/fb-cloning-id
+ cd fb-cloning-id
+ chmod +x * Shubham.py
+ clear
+ echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
+ sleep 2 
+ python2 Shubham.py
+echo "    {Ctrl C} exit "
+ sleep 2
+ cd
+ git clone https://github.com/ShuBhamg0sain/tool-s-installer
+ cd tool-s-installer
+ bash Sg.sh
+
+
+
+elif [ "$next" -eq "00"  ]; then
  cd
  clear
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
