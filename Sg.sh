@@ -33,7 +33,7 @@ echo "N[27] install "
 echo "N[28] install "        
 echo "N[29] install "                
 echo "N[30] install "
-echo "N[00] next "                                                    
+echo "N[0] next "                                                    
 
 echo ""
 echo -e "$p"
@@ -1021,7 +1021,7 @@ echo "    {Ctrl C} exit "
  bash Sg.sh
 
 
-elif [ "$N" -eq "00"  ]; then
+elif [ "$N" -eq "0"  ]; then
  cd
  clear
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
