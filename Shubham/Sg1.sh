@@ -1063,8 +1063,7 @@ elif [ "$N" -eq "0"  ]; then
  cd
  git clone https://github.com/ShuBhamg0sain/tool-s-installer
  cd tool-s-installer
- cd Shubham
- bash Sg2.sh
+ bash Sg.sh
 
 else :
  bash Sg1.sh
