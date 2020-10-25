@@ -1041,7 +1041,7 @@ elif [ "$N" -eq "00"  ]; then
  git clone https://github.com/ShuBhamg0sain/tool-s-installer
  cd tool-s-installer
  cd Shubham
- bash Sg1.sh
+ bash Sg2.sh
  clear
  sleep 2
 
