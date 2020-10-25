@@ -3,6 +3,7 @@ p='\033[1;35m'
 clear
 echo -e "\033[1;32m"
 echo "    {Ctrl C} exit "
+echo "this is the page 1 of tool-s-installer"
 echo "N[31] imstall fb-cloning-id"                                                                 
 echo "N[32] imstall FB-check-point".  
 echo "N[33] install phonehack"                                                                       
