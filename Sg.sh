@@ -204,7 +204,7 @@ echo "    {Ctrl C} exit "
 
 
 
-elif [ "$next" -eq "00"  ]; then
+elif [ "$next" , "$install" -eq "00"  ]; then
  cd
  clear
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
