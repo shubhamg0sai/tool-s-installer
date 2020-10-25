@@ -3,43 +3,43 @@ p='\033[1;35m'
 clear
 echo -e "\033[1;32m"
 echo "    {Ctrl C} exit "
-echo "[1] imstall fb-cloning-id"                                                                 
-echo "[2] imstall FB-check-point".  
-echo "[3] install phonehack"                                                                       
-echo "[4] install phone-number-tracker"        
-echo "[5] install hack-wifi"                                                                       
-echo "[6] install Facebook_hack"
-echo "[7] install basic-installtion-comands"                                                       
-echo "[8] install ShuBham"          
-echo "[9] install "                                                                                
-echo "[10] install "                          
-echo "[11] install "               
-echo "[12] install "
-echo "[13] install "                            
-echo "[14] install "                 
-echo "[15] install "             
-echo "[16] install "                           
-echo "[17] install "                
-echo "[18] install "
-echo "[19] install "                            
-echo "[20] install "                
-echo "[21] install "   
-echo "[22] install "                           
-echo "[23] install "                 
-echo "[24] install "
-echo "[25] install "                            
-echo "[26] install "                
-echo "[27] install "    
-echo "[28] install "        
-echo "[29] install "                
-echo "[30] install "
-echo "[00] next "                                                    
+echo "N[1] imstall fb-cloning-id"                                                                 
+echo "N[2] imstall FB-check-point".  
+echo "N[3] install phonehack"                                                                       
+echo "N[4] install phone-number-tracker"        
+echo "N[5] install hack-wifi"                                                                       
+echo "N[6] install Facebook_hack"
+echo "N[7] install basic-installtion-comands"                                                       
+echo "N[8] install ShuBham"          
+echo "N[9] install "                                                                                
+echo "N[10] install "                          
+echo "N[11] install "               
+echo "N[12] install "
+echo "N[13] install "                            
+echo "N[14] install "                 
+echo "N[15] install "             
+echo "N[16] install "                           
+echo "N[17] install "                
+echo "N[18] install "
+echo "N[19] install "                            
+echo "N[20] install "                
+echo "N[21] install "   
+echo "N[22] install "                           
+echo "N[23] install "                 
+echo "N[24] install "
+echo "N[25] install "                            
+echo "N[26] install "                
+echo "N[27] install "    
+echo "N[28] install "        
+echo "N[29] install "                
+echo "N[30] install "
+echo "N[00] next "                                                    
 
 echo ""
 echo -e "$p"
-read -p  "number-------> " install , next
+read -p  "number-------> " N
 
-if [ "$install" -eq "1"  ]; then
+if [ "$N" -eq "1"  ]; then
  cd
  clear
  termux-setup-storage
@@ -72,7 +72,7 @@ echo "    {Ctrl C} exit "
 
 
 
-elif [ "$install" -eq "1"  ]; then
+elif [ "$N" -eq "1"  ]; then
  cd
  clear
  termux-setup-storage
@@ -105,7 +105,7 @@ echo "    {Ctrl C} exit "
 
 
 
-elif [ "$install" -eq "1"  ]; then
+elif [ "$N" -eq "1"  ]; then
  cd
  clear
  termux-setup-storage
@@ -138,7 +138,7 @@ echo "    {Ctrl C} exit "
 
 
 
-elif [ "$install" -eq "1"  ]; then
+elif [ "$N" -eq "1"  ]; then
  cd
  clear
  termux-setup-storage
@@ -171,7 +171,7 @@ echo "    {Ctrl C} exit "
 
 
 
-elif [ "$install" -eq "1"  ]; then
+elif [ "$N" -eq "1"  ]; then
  cd
  clear
  termux-setup-storage
@@ -204,7 +204,7 @@ echo "    {Ctrl C} exit "
 
 
 
-elif [ "$next" , "$install" -eq "00"  ]; then
+elif [ "$N" -eq "00"  ]; then
  cd
  clear
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
